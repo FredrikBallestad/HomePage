@@ -4,6 +4,7 @@ h1{
 
 .container{
     display: flex;
+    flex-direction: column;
     gap: 2em;
     margin: 2em;
 }
@@ -12,4 +13,20 @@ h1{
     padding: 2em;
     border-radius: .3em;
     box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+body{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding: 10px;
+  background-image: radial-gradient( circle farthest-corner at 7.2% 13.6%,  rgba(37,249,245,1) 0%, rgba(8,70,218,1) 90% );
+  background-color: #85FFBD;
+}
+
+a{
+    padding-left: 0.2rem;
 }
